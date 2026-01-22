@@ -88,9 +88,91 @@
 
 ├── css/
 │   └── estilos.css
-│
+│* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.encabezado {
+  background-color: #1f3c88;
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.menu {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1f3c88;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.seccion {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.avisos {
+  list-style: none;
+  padding: 0;
+}
+
+.avisos li {
+  padding: 8px 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #1f3c88;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.boton:hover {
+  background-color: #162e63;
+}
+
+.pie {
+  text-align: center;
+  padding: 15px;
+  color: #666;
+}
+
 ├── js/
 │   └── scripts.js
-│
+│console.log("Sitio del Aula de Medios cargado correctamente");
+
 └── img/
     └── (aquí van tus fotos)
