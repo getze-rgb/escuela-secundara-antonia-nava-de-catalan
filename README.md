@@ -1,4 +1,4 @@
-#hola bienvenidos a la pagina de la antonia #
+#hola bienvenidos a la pagina de la antonia  de tere  #
 
 / (raíz)
 │── index.html
