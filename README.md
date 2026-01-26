@@ -1,2 +1,2 @@
-esta es la paguna que yo quero pero no puedo cer vana 
+esta es lo que quiero que se muetre y no se muertra nada 
 
