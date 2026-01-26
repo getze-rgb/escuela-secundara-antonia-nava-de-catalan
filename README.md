@@ -1,8 +1,4 @@
-#hola bienvenidos a la pagina de la antonia  de tere  #
-
-/ (raíz)
-│── index.html
-│<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -10,99 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
-* {
-  box-sizing: border-box;
-}
-
-/* ===== ESTILO GENERAL ===== */
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f5; /* gris claro */
-  color: #333;
-}
-
-/* ===== ENCABEZADO ===== */
-.encabezado {
-  background-color: #2e7d32; /* verde principal */
-  color: white;
-  padding: 30px 15px;
-  text-align: center;
-}
-
-/* ===== MENÚ ===== */
-.menu {
-  background-color: #e8f5e9; /* verde muy suave */
-  text-align: center;
-  padding: 10px;
-}
-
-.menu a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #2e7d32;
-  font-weight: bold;
-}
-
-.menu a:hover {
-  text-decoration: underline;
-  color: #1b5e20;
-}
-
-/* ===== SECCIONES ===== */
-.seccion {
-  background-color: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 6px solid #66bb6a; /* motivo verde */
-}
-
-/* ===== GALERÍA ===== */
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.galeria img {
-  width: 100%;
-  border-radius: 6px;
-  border: 3px solid #c8e6c9;
-}
-
-/* ===== AVISOS ===== */
-.avisos {
-  list-style: none;
-  padding: 0;
-}
-
-.avisos li {
-  padding: 8px 0;
-}
-
-/* ===== BOTÓN ===== */
-.boton {
-  display: inline-block;
-  background-color: #2e7d32;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  margin-top: 10px;
-}
-
-.boton:hover {
-  background-color: #1b5e20;
-}
-
-/* ===== PIE DE PÁGINA ===== */
-.pie {
-  text-align: center;
-  padding: 15px;
-  color: #555;
-  background-color: #e0e0e0;
-}
 
 <body>
 
@@ -158,9 +61,7 @@ body {
 
 <section id="inscripcion" class="seccion">
   <h2>Inscripción</h2>
-  <p>
-    Para realizar el proceso de inscripción, da clic en el siguiente enlace:
-  </p>
+  <p>Para realizar el proceso de inscripción, da clic en el siguiente enlace:</p>
   <a class="boton" href="#" target="_blank">Formulario de Inscripción</a>
 </section>
 
@@ -179,93 +80,4 @@ body {
 </body>
 </html>
 
-├── css/
-│   └── estilos.css
-│* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
-  color: #333;
-}
-
-.encabezado {
-  background-color: #1f3c88;
-  color: white;
-  padding: 30px 15px;
-  text-align: center;
-}
-
-.menu {
-  background-color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-.menu a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #1f3c88;
-  font-weight: bold;
-}
-
-.menu a:hover {
-  text-decoration: underline;
-}
-
-.seccion {
-  background-color: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.galeria img {
-  width: 100%;
-  border-radius: 6px;
-}
-
-.avisos {
-  list-style: none;
-  padding: 0;
-}
-
-.avisos li {
-  padding: 8px 0;
-}
-
-.boton {
-  display: inline-block;
-  background-color: #1f3c88;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  margin-top: 10px;
-}
-
-.boton:hover {
-  background-color: #162e63;
-}
-
-.pie {
-  text-align: center;
-  padding: 15px;
-  color: #666;
-}
-
-├── js/
-│   └── scripts.js
-│console.log("Sitio del Aula de Medios cargado correctamente");
-
-└── img/
-    └── (aquí van tus fotos)
