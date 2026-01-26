@@ -10,6 +10,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
+* {
+  box-sizing: border-box;
+}
+
+/* ===== ESTILO GENERAL ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f5; /* gris claro */
+  color: #333;
+}
+
+/* ===== ENCABEZADO ===== */
+.encabezado {
+  background-color: #2e7d32; /* verde principal */
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+/* ===== MENÚ ===== */
+.menu {
+  background-color: #e8f5e9; /* verde muy suave */
+  text-align: center;
+  padding: 10px;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: #1b5e20;
+}
+
+/* ===== SECCIONES ===== */
+.seccion {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 6px solid #66bb6a; /* motivo verde */
+}
+
+/* ===== GALERÍA ===== */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 6px;
+  border: 3px solid #c8e6c9;
+}
+
+/* ===== AVISOS ===== */
+.avisos {
+  list-style: none;
+  padding: 0;
+}
+
+.avisos li {
+  padding: 8px 0;
+}
+
+/* ===== BOTÓN ===== */
+.boton {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.boton:hover {
+  background-color: #1b5e20;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+.pie {
+  text-align: center;
+  padding: 15px;
+  color: #555;
+  background-color: #e0e0e0;
+}
 
 <body>
 
